@@ -1,0 +1,42 @@
+2- Que tipo de função é esta:
+R: Declared function
+
+3- Qual é o tipo de valor booleano?
+R- True e False
+
+4 - Indentifique uma Array
+R:const valores = [3,4,6,2,1]
+
+------------------------------
+
+PERGUNTAS MEDIANAS
+
+1 - Indentifique a função arrow
+
+
+2 - Oque é um objeto?
+
+R:Um objeto é uma coleção de dados e/ou funcionalidades relacionadas (que geralmente consistem em diversas variáveis e funções
+
+3 - Qual valor esse alert ira retornar,Bob ou Smith?
+
+var pessoa = {
+  nome: ['Bob', 'Smith']
+
+bio:function(){
+
+	alert(this.nome[1])
+}
+
+
+R: Smith
+
+
+4 - O que é uma classe?
+
+-
+-------------------------------
+
+1 - Pegue só as notas baixas dessa array usando uma função call-back com filter
+
+

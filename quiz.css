@@ -1,0 +1,1059 @@
+body{
+
+    background-color: rgb(233, 227, 227);
+}
+
+
+.main-header{
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    padding: .6em 0 0 0;
+
+    background-color: rgb(42, 45, 216);
+
+    height: 9.5em;
+}
+#logo-header{
+
+    width: 100px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#header-h1{
+
+    margin-top: 3px;
+    font-family: 'bebas neue';
+    color: #e0b158;
+    letter-spacing: 5px;
+    text-shadow: 2px 2px  black;
+}
+
+#logo-header:hover{
+
+    transition: all ease-in .2s;
+    transform: scale(1.1);
+}
+
+#ul-nav{
+
+    width: 70px;
+    display: flex;
+    list-style: none;
+    
+    align-items: center;
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+    
+    
+
+}
+
+.princ-nav{
+
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.li-nav:hover{
+
+    transition: all .5s ease;
+    transform: scale(1.1);
+    transform: rotate(10deg);
+}
+
+
+.git-link{
+
+    text-decoration: none;
+    font-size: 2.3em;
+    color: black;
+    transform: scale();
+    text-shadow: 2px 2px  #e0b158;
+    
+}
+
+.main-header nav{
+
+    position: absolute;
+    right: 0;
+}
+
+
+
+
+#femininol{
+
+    background-color: green;
+}
+
+
+
+.main-section-content{
+
+    width: 85%;
+    height: 79vh;
+    background-color: rgb(236, 229, 229);
+    margin: auto;
+    margin-top: 1%;
+    border-radius: 10px;
+    
+}
+
+
+.main-content{
+    
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.Content-Title{
+
+    text-transform: uppercase;
+    font-family: 'bebas neue';
+    letter-spacing: 3px;
+    text-shadow: 2px 2px white;
+    border-bottom: solid 3px black
+    ;
+}
+
+
+
+.iniciante-questions{
+
+    width: 100%;
+    background-color: rgb(42, 45, 216);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    box-sizing: border-box;
+    padding: 2em;
+    border-radius: 10px;
+    
+}
+.iniciante-questions:hover{
+
+    transition: all .2s ease-in;
+    box-shadow: #faa404 10px 10px;
+}
+.questions{
+
+    width: 42%;
+    height: 180px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    justify-content: space-around;
+
+    border-radius: 15px;
+    box-shadow: #e0b158 5px 5px;
+    margin-top: 2%;
+    
+
+    overflow: auto;
+    margin: 1.5em;
+    font-family: 'bebas neue';
+    
+}
+
+
+.real-question{
+
+    text-align: center;
+}
+
+
+
+
+#button-for-display1, #button-for-display2, #button-for-display3, #button-for-display4{
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.buttons{
+
+    width: 67%;
+    
+    border: none;
+    border: solid 1px black;
+    border-radius: 5px;
+    cursor: pointer;
+    align-self: center;
+    margin-bottom: 2%;
+}
+
+
+
+label[for]{
+
+    display: flex;
+    cursor: pointer;
+    flex-grow: 1;
+    align-items: flex-start;
+    margin-left: 5%;
+
+}
+
+
+.pontuacao-container{
+
+    width: 40%;
+    background-color: rgb(250, 181, 7);
+    text-align: center;
+    border-radius: 380px;
+
+    margin: auto;
+    box-shadow: rgb(42, 45, 216) 5px 5px;
+    margin-bottom: 40px;
+}
+
+.pontuacao-container h1{
+
+    font-family: 'bebas neue';
+    margin-top: 20px;
+}
+
+.iniciante-pontuation h2{
+
+    color: white;
+    text-shadow: 2px 2px black;
+    text-transform: uppercase;
+    font-family: 'bebas neue';
+    letter-spacing: 10px;
+}
+
+.pontuation-text{
+
+    font-size: 2em;
+    font-family: 'bebas neue';
+    letter-spacing: 10px;
+}
+
+/*              QUIZ MEDIANO                */
+
+.second-main-section{
+
+    width: 85%;
+    height: 79vh;
+    background-color: rgb(236, 229, 229);
+    margin: auto;
+    margin-top: 14%;
+    border-radius: 10px;
+    display: block;
+}
+
+
+.second-main-content{
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.second-content-title{
+
+    text-transform: uppercase;
+    font-family: 'bebas neue';
+    letter-spacing: 3px;
+    text-shadow: 2px 2px rgb(255, 255, 255);
+    border-bottom: solid 3px rgb(226, 27, 233)
+    ;
+    color:rgb(123, 42, 216) ;
+}
+
+.mediana-questions{
+
+    width: 100%;
+    background-color: rgb(123, 42, 216);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    box-sizing: border-box;
+    padding: 2em;
+    border-radius: 10px;
+}
+
+.mediana-questions:hover{
+
+    transition: all .2s ease-in;
+    box-shadow: #b404fa 10px 10px;
+
+}
+
+.questions-mid{
+
+    width: 42%;
+    height: 180px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    justify-content: space-around;
+
+    border-radius: 15px;
+    box-shadow: #db58e0 5px 5px;
+    margin-top: 2%;
+    
+
+    overflow: auto;
+    margin: 1.5em;
+    font-family: 'bebas neue';
+}
+
+
+#button-for-display5, #button-for-display6, #button-for-display7, #button-for-display8{
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.pontuacao-container-inter{
+
+    width: 40%;
+    background-color: #ae58e0 ;
+    text-align: center;
+    border-radius: 380px;
+
+    margin: auto;
+    box-shadow: rgb(132, 42, 216) 5px 5px;
+    margin-bottom: 40px;
+}
+
+.pontuacao-container-inter h1{
+
+    font-family: 'bebas neue';
+    margin-top: 20px;
+}
+
+.iniciante-pontuation-inter h2{
+
+    color: white;
+    text-shadow: 2px 2px black;
+    text-transform: uppercase;
+    font-family: 'bebas neue';
+    letter-spacing: 10px;
+}
+
+.pontuation-text-inter{
+
+    font-size: 2em;
+    font-family: 'bebas neue';
+    letter-spacing: 10px;
+}
+
+
+/*      QUIZ AVANÇADO   */
+
+.third-main-section{
+
+    width: 100%;
+    height: 79vh;
+    background-color: rgb(236, 229, 229);
+    margin: auto;
+    margin-top: 8%;
+    border-radius: 10px;
+    display: block;
+}
+
+
+.third-main-content{
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.third-content-title{
+
+    text-transform: uppercase;
+    font-family: 'bebas neue';
+    letter-spacing: 3px;
+    text-shadow: 2px 2px rgb(255, 255, 255);
+    border-bottom: solid 3px rgb(27, 116, 233)
+    ;
+    color:rgb(42, 216, 94) ;
+}
+
+.advanced-questions{
+
+    width: 100%;
+    background-color: rgb(32, 34, 33);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    box-sizing: border-box;
+    padding: 2em;
+    border-radius: 10px;
+}
+
+.advanced-questions:hover{
+
+    transition: all .2s ease-in;
+    box-shadow: #1d7934 10px 10px;
+
+}
+
+.questions-ad, #questions-ad1{
+
+    width: 100%;
+    height: 380px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    justify-content: space-around;
+
+    border-radius: 15px;
+    box-shadow: #1d7934 5px 5px;
+    margin-top: 2%;
+    
+
+    overflow: auto;
+    margin: 1.5em;
+    font-family: 'bebas neue';
+
+    position: inherit;
+}
+
+
+#button-for-display9, #button-for-display10, #button-for-display11, #button-for-display12{
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.pontuacao-container-ad{
+
+    width: 40%;
+    background-color:  rgb(32, 34, 33);
+    text-align: center;
+    border-radius: 380px;
+
+    margin: auto;
+    box-shadow: #1d7934 5px 5px;
+    margin-bottom: 40px;
+}
+
+.pontuacao-container-ad h1{
+
+    font-family: 'bebas neue';
+    margin-top: 20px;
+}
+
+.iniciante-pontuation-ad h2{
+
+    color: white;
+    text-shadow: 2px 2px black;
+    text-transform: uppercase;
+    font-family: 'bebas neue';
+    letter-spacing: 10px;
+}
+
+.pontuation-text-ad{
+
+    font-size: 2em;
+    font-family: 'bebas neue';
+    letter-spacing: 10px;
+}
+
+
+
+#ad-textarea{
+
+    
+    background-color: rgb(32, 32, 32);;
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    margin-right: 17%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    color: green;
+}
+
+
+#resposta-display{
+
+    width: 20%;
+    height: 60px;
+    background-color: rgb(32, 32, 32);
+    position: fixed;
+    bottom: 50px;
+    border: solid 1px white;
+    border-radius: 10px;
+    text-align: center;
+
+    color: white;
+    visibility: hidden;
+}
+
+
+.footer-container{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: black;
+    color: white;
+    height: 200px;
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+@media screen and (max-width: 1200px){
+
+
+    .main-header{
+
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+        padding: .6em 0 0 0;
+    
+        background-color: rgb(42, 45, 216);
+    
+        height: 9.5em;
+    }
+    #logo-header{
+    
+        width: 100px;
+        box-sizing: border-box;
+        border-radius: 20px;
+        cursor: pointer;
+    }
+    
+    #header-h1{
+    
+        margin-top: 3px;
+        font-family: 'bebas neue';
+        color: #e0b158;
+        letter-spacing: 5px;
+        text-shadow: 2px 2px  black;
+    }
+    
+    #logo-header:hover{
+    
+        transition: all ease-in .2s;
+        transform: scale(1.1);
+    }
+    
+    #ul-nav{
+    
+        width: 70px;
+        display: flex;
+        list-style: none;
+        
+        align-items: center;
+        margin-top: 2%;
+        display: flex;
+        flex-direction: column;
+        
+        
+    
+    }
+    
+    .princ-nav{
+    
+        margin-right: 20px;
+        margin-top: 20px;
+    }
+    
+    .li-nav:hover{
+    
+        transition: all .5s ease;
+        transform: scale(1.1);
+        transform: rotate(10deg);
+    }
+    
+    
+    .git-link{
+    
+        text-decoration: none;
+        font-size: 2.3em;
+        color: black;
+        transform: scale();
+        text-shadow: 2px 2px  #e0b158;
+        
+    }
+    
+    .main-header nav{
+    
+        position: absolute;
+        right: 0;
+    }
+    
+    
+    
+    
+    #femininol{
+    
+        background-color: green;
+    }
+    
+    
+    
+    .main-section-content{
+    
+        width: 85%;
+        height: 79vh;
+        background-color: rgb(236, 229, 229);
+        margin: auto;
+        margin-top: 1%;
+        border-radius: 10px;
+        margin-bottom: 800px;
+        
+    }
+    
+    
+    .main-content{
+        
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        
+    }
+    
+    .Content-Title{
+    
+        text-transform: uppercase;
+        font-family: 'bebas neue';
+        letter-spacing: 3px;
+        text-shadow: 2px 2px white;
+        border-bottom: solid 3px black
+        ;
+    }
+    
+    
+    
+    .iniciante-questions{
+    
+        width: 100%;
+        background-color: rgb(42, 45, 216);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    
+        box-sizing: border-box;
+        border-radius: 10px;
+        
+    }
+    .iniciante-questions:hover{
+    
+        transition: all .2s ease-in;
+        box-shadow: #faa404 10px 10px;
+    }
+    .questions{
+    
+        width: 100%;
+        height: 180px;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        justify-content: space-around;
+    
+        border-radius: 15px;
+        box-shadow: #e0b158 5px 5px;
+        margin-top: 2%;
+        
+    
+        overflow: auto;
+        margin: 1.5em;
+        font-family: 'bebas neue';
+
+        
+    }
+    
+    
+    .real-question{
+    
+        text-align: center;
+    }
+    
+    
+    
+    
+    #button-for-display1, #button-for-display2, #button-for-display3, #button-for-display4{
+    
+        display: flex;
+        justify-content: center;
+    
+    }
+    
+    .buttons{
+    
+        width: 67%;
+        
+        border: none;
+        border: solid 1px black;
+        border-radius: 5px;
+        cursor: pointer;
+        align-self: center;
+        margin-bottom: 2%;
+    }
+    
+    
+    
+    label[for]{
+    
+        display: flex;
+        cursor: pointer;
+        flex-grow: 1;
+        align-items: flex-start;
+        margin-left: 5%;
+    
+    }
+    
+    
+    .pontuacao-container{
+    
+        width: 70%;
+        background-color: rgb(250, 181, 7);
+        text-align: center;
+        border-radius: 380px;
+    
+        margin: auto;
+        box-shadow: rgb(42, 45, 216) 5px 5px;
+        margin-bottom: 40px;
+    }
+    
+    .pontuacao-container h1{
+    
+        font-family: 'bebas neue';
+        margin-top: 20px;
+    }
+    
+    .iniciante-pontuation h2{
+    
+        color: white;
+        text-shadow: 2px 2px black;
+        text-transform: uppercase;
+        font-family: 'bebas neue';
+        letter-spacing: 10px;
+    }
+    
+    .pontuation-text{
+    
+        font-size: 2em;
+        font-family: 'bebas neue';
+        letter-spacing: 10px;
+    }
+
+
+    
+/*              QUIZ MEDIANO                */
+
+.second-main-section{
+
+    width: 85%;
+    height: 79vh;
+    background-color: rgb(236, 229, 229);
+    margin: auto;
+    margin-top: 600px;
+    border-radius: 10px;
+    display: block;
+    
+}
+
+
+.second-main-content{
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.second-content-title{
+
+    text-transform: uppercase;
+    font-family: 'bebas neue';
+    letter-spacing: 3px;
+    text-shadow: 2px 2px rgb(255, 255, 255);
+    border-bottom: solid 3px rgb(226, 27, 233)
+    ;
+    color:rgb(123, 42, 216) ;
+}
+
+.mediana-questions{
+
+    width: 100%;
+    background-color: rgb(123, 42, 216);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    box-sizing: border-box;
+    padding: 2em;
+    border-radius: 10px;
+}
+
+.mediana-questions:hover{
+
+    transition: all .2s ease-in;
+    box-shadow: #b404fa 10px 10px;
+
+}
+
+.questions-mid{
+
+    width: 100%;
+    height: 180px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    justify-content: space-around;
+
+    border-radius: 15px;
+    box-shadow: #db58e0 5px 5px;
+    margin-top: 2%;
+    
+
+    overflow: auto;
+    margin: 1.5em;
+    font-family: 'bebas neue';
+}
+
+
+#button-for-display5, #button-for-display6, #button-for-display7, #button-for-display8{
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.pontuacao-container-inter{
+
+    width: 100%;
+    background-color: #ae58e0 ;
+    text-align: center;
+    border-radius: 380px;
+
+    margin: auto;
+    box-shadow: rgb(132, 42, 216) 5px 5px;
+    margin-bottom: 40px;
+}
+
+.pontuacao-container-inter h1{
+
+    font-family: 'bebas neue';
+    margin-top: 20px;
+}
+
+.iniciante-pontuation-inter h2{
+
+    color: white;
+    text-shadow: 2px 2px black;
+    text-transform: uppercase;
+    font-family: 'bebas neue';
+    letter-spacing: 10px;
+}
+
+.pontuation-text-inter{
+
+    font-size: 2em;
+    font-family: 'bebas neue';
+    letter-spacing: 10px;
+}
+
+
+/*      QUIZ AVANÇADO   */
+
+.third-main-section{
+
+    width: 100%;
+    height: 79vh;
+    background-color: rgb(236, 229, 229);
+    margin: auto;
+    margin-top: 8%;
+    border-radius: 10px;
+    display: block;
+}
+
+
+.third-main-content{
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.third-content-title{
+
+    text-transform: uppercase;
+    font-family: 'bebas neue';
+    letter-spacing: 3px;
+    text-shadow: 2px 2px rgb(255, 255, 255);
+    border-bottom: solid 3px rgb(27, 116, 233)
+    ;
+    color:rgb(42, 216, 94) ;
+}
+
+.advanced-questions{
+
+    width: 100%;
+    background-color: rgb(32, 34, 33);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    box-sizing: border-box;
+    padding: 2em;
+    border-radius: 10px;
+}
+
+.advanced-questions:hover{
+
+    transition: all .2s ease-in;
+    box-shadow: #1d7934 10px 10px;
+
+}
+
+.questions-ad, #questions-ad1{
+
+    width: 100%;
+    height: 380px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    justify-content: space-around;
+
+    border-radius: 15px;
+    box-shadow: #1d7934 5px 5px;
+    margin-top: 2%;
+    
+
+    overflow: auto;
+    margin: 1.5em;
+    font-family: 'bebas neue';
+
+    position: inherit;
+}
+
+
+#button-for-display9, #button-for-display10, #button-for-display11, #button-for-display12{
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.pontuacao-container-ad{
+
+    width: 100%;
+    background-color:  rgb(32, 34, 33);
+    text-align: center;
+    border-radius: 380px;
+
+    margin: auto;
+    box-shadow: #1d7934 5px 5px;
+    margin-bottom: 40px;
+}
+
+.pontuacao-container-ad h1{
+
+    font-family: 'bebas neue';
+    margin-top: 20px;
+}
+
+.iniciante-pontuation-ad h2{
+
+    color: white;
+    text-shadow: 2px 2px black;
+    text-transform: uppercase;
+    font-family: 'bebas neue';
+    letter-spacing: 10px;
+}
+
+.pontuation-text-ad{
+
+    font-size: 2em;
+    font-family: 'bebas neue';
+    letter-spacing: 10px;
+}
+
+
+
+#ad-textarea{
+
+    
+    background-color: rgb(32, 32, 32);;
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    margin-right: 17%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    color: green;
+}
+
+
+#resposta-display{
+
+    width: 20%;
+    height: 60px;
+    background-color: rgb(32, 32, 32);
+    position: fixed;
+    bottom: 50px;
+    border: solid 1px white;
+    border-radius: 10px;
+    text-align: center;
+
+    color: white;
+    visibility: hidden;
+}
+
+
+.footer-container{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: black;
+    color: white;
+    height: 200px;
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+    
+}

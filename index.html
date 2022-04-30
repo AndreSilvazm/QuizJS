@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QUIZ JS</title>
+    <script src="quiz.js"></script>
+    <link rel="stylesheet" href="quiz.css">
+    <link rel="stylesheet" href="Mídias/style.css">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="shortcut icon" href="Mídias/logo-fav.ico" type="image/x-icon">
+</head>
+<body>
+
+    <div class="container">
+
+
+        <header class="main-header">
+
+            <img src="Mídias/logo.jpg" alt="QUIZ" 
+            id="logo-header">
+
+            <h1 id="header-h1">Quiz JS</h1>
+            <nav class="princ-nav">
+
+                <ul id="ul-nav">
+
+                    <li class="li-nav">
+                        <a href="https://github.com/AndreSilvazm" target='blank'class="git-link"><span class="icon-github"></span></a>
+                        
+                    </li>
+                    
+                    <li class="li-nav">
+
+                        <a href="#" class="git-link"><span class="icon-youtube"></span></a>
+                    </li>
+
+
+                </ul>
+
+            </nav>
+
+
+        </header>
+
+        <section class="main-section-content">
+
+            <main class="main-content">
+
+                <h2 class="Content-Title iniciante-title">Perguntas nível iniciante</h2>
+                
+                <div class="iniciante-questions">
+
+
+                    <div class="questions">
+
+                        <h3 class="real-question">Como capturar valor de um input em JS, que é indentificado com o: ID
+
+
+                        </h3>
+
+                        <label for="" class="label-questions">
+                            
+                            <input type="radio" name="question">
+
+                            <span id="fqc-wrong" style="width: 70%; border-radius: 10px;font-family: monospace;font-weight: bold;">getElementByTagName('...')</span>
+                        </label>
+
+                        
+                        <label for="" class="label-questions">
+                            
+                            
+                            <input type="radio" name="question" >
+                            <span id="fqc-wrong1" style="width: 70%; border-radius: 10px;font-family: monospace;font-weight: bold;">getElementByName('...')</span>
+                        </label>
+
+                        <label for="" class="label-questions">
+                            
+                            
+                            <input type="radio" name="question" >
+                            <span id="fqc-true" style="width: 70%; border-radius: 10px; font-family: monospace;font-weight: bold;">getElementById('...')</span>
+                        </label>
+
+                        <span id="button-for-display1">
+                            <button class="buttons" onclick="firstQuestion()">Confirmar</button>
+                        </span>
+
+
+                    </div>
+
+                    
+                    <div class="questions">
+
+                        <h3 class="real-question">Que tipo de função é esta: <span style="display: block; font-family:monospace; margin-top: 10px;">function soma(x,y){}</span></h3>
+
+                        <label for="" class="label-questions2">
+                            
+                            <input type="radio" name="question2">
+                            
+                            <span id="sqct" style="width: 70%; border-radius: 10px;">declared function</span>
+                            
+                        </label>
+
+
+                        
+                        <label for="" class="label-questions2">
+                            
+                            
+                            <input type="radio" name="question2">
+                            <span id="sqcw" style="width: 70%; border-radius: 10px;">Expresison function</span>
+                        </label>
+
+                        
+
+                        
+                        <label for="" class="label-questions2">
+                            
+                            
+                            <input type="radio" name="question2">
+                            <span id="sqcw1" style="width: 70%; border-radius: 10px; ">Expresison function declared</span>
+                        </label>
+
+                        <span id="button-for-display2">
+                            
+                            <button class="buttons" onclick="secondQuestion()">Confirmar</button>
+
+                        </span>
+
+
+                    </div>
+
+                    
+                    <div class="questions">
+
+                        <h3 class="real-question">Qual é o resultado de um valor booleano?</h3>
+
+                        <label for="" class="label-questions">
+                            
+                            <input type="radio" name="question3">
+
+                            <span id="tqcw" style="width: 70%; border-radius: 10px;">Null e Undefined</span>
+                        </label>
+
+                        
+                        <label for="" class="label-questions">
+                            
+                            
+                            <input type="radio" name="question3">
+                            <span id="tqct" style="width: 70%; border-radius: 10px;">True e False</span>
+                        </label>
+
+                        
+                        <label for="" class="label-questions">
+                            
+                            
+                            <input type="radio" name="question3">
+                            <span id="tqcw1" style="width: 70%; border-radius: 10px;">Number e String</span>
+                        </label>
+
+                        <span id="button-for-display3">
+        
+                                <button class="buttons" onclick="TreeQuestion()">Confirmar</button>
+                        </span>
+
+
+                    </div>
+
+
+                    <div class="questions">
+
+                        <h3 class="real-question">Indentifique a Array:</h3>
+
+                        <label for="" class="label-questions">
+                            
+                            <input type="radio" name="question4">
+
+                            <span id="foqct" style="width: 70%; border-radius: 10px;">const valores = [3,4,5,6,7,8]</span>
+                            
+                        </label>
+
+                        
+                        <label for="" class="label-questions">
+                            
+                            
+                            <input type="radio" name="question4">
+
+                            <span id="foqcw" style="width: 70%; border-radius: 10px;">const valores = {valor1:1, valor2:2}</span>
+                            
+                        </label>
+
+                        
+                        <label for="" class="label-questions">
+                            
+                            
+                            <input type="radio" name="question4">
+                            
+
+                            <span id="foqcw1" style="width: 70%; border-radius: 10px;">const valores = a => 2 * a
+                        </label>
+                        
+
+                        
+
+                        <span id="button-for-display4">
+
+                            <button class="buttons" onclick="FourQuestion()">Confirmar</button>
+                        
+                        </span>
+
+
+                    </div>
+                </div>
+
+                
+
+
+
+            </main>
+
+
+            <section class="pontuacao-container">
+
+                <h1>Pontuação</h1>
+
+                <div class="iniciante-pontuation">
+
+                    <h2>Iniciante Level</h2>
+                    <span class="pontuation-text">
+
+                        <span id="valor-pontuação">0</span>/4
+
+
+                    </span>
+
+                </div>
+
+
+
+
+            </section>
+
+            
+        </section>
+        
+        <!--ENTANDO NA AREA MID DO QUIZZ-->
+
+
+        <section class="second-main-section">
+
+            <main class="second-main-content">
+
+                <h2 class="second-content-title iniciante-title">Perguntas nível Intermediário</h2>
+                
+                <div class="mediana-questions">
+
+
+                    <div class="questions-mid">
+
+                        <h3 class="real-question">Indentifique a função arrow
+
+
+                        </h3>
+
+                        <label for="" class="label-questions">
+                            
+                            <input type="radio" name="questionI1">
+
+                            <span id="Ifqc-wrong" style="width: 70%; border-radius: 10px;font-family: monospace;font-weight: bold;">const saudacao = function(){}</span>
+                        </label>
+
+                        
+                        <label for="" class="label-questions">
+                            
+                            
+                            <input type="radio" name="questionI1" >
+                            <span id="Ifqc-wrong1" style="width: 70%; border-radius: 10px;font-family: monospace;font-weight: bold;">function saudacao(){}</span>
+                        </label>
+
+                        <label for="" class="label-questions">
+                            
+                            
+                            <input type="radio" name="questionI1" >
+                            <span id="Ifqc-true" style="width: 70%; border-radius: 10px; font-family: monospace;font-weight: bold;">saudacao =_=>...</span>
+                        </label>
+
+                        <span id="button-for-display5">
+                            <button class="buttons" onclick="InterFirstQuestion()">Confirmar</button>
+                        </span>
+
+
+                    </div>
+
+                    
+                    <div class="questions-mid">
+
+                        <h3 class="real-question">Oque é um objeto?</h3>
+
+                        <label for="" class="label-questions2">
+                            
+                            <input type="radio" name="questionI2">
+                            
+                            <span id="Isqct" style="width: 70%; border-radius: 10px;">é uma coleção de dados e/ou funcionalidades</span>
+                            
+                        </label>
+
+
+                        
+                        <label for="" class="label-questions2">
+                            
+                            
+                            <input type="radio" name="questionI2">
+                            <span id="Isqcw" style="width: 70%; border-radius: 10px;">É uma funcionalidade de uma class</span>
+                        </label>
+
+                        
+
+                        
+                        <label for="" class="label-questions2">
+                            
+                            
+                            <input type="radio" name="questionI2">
+                            <span id="Isqcw1" style="width: 70%; border-radius: 10px; ">É uma variavel do banco de dados</span>
+                        </label>
+
+                        <span id="button-for-display6">
+                            
+                            <button class="buttons" onclick="InterSecondQuestion()">Confirmar</button>
+
+                        </span>
+
+
+                    </div>
+
+                    
+                    <div class="questions-mid">
+
+                        <h3 class="real-question" style="margin-top: 40px;
+                        
+                        margin-bottom: 4px;">Qual valor esse alert ira retornar,Bob ou Smith?
+                        </h3>
+                        <span style="text-align: center; margin-top: -40px;color: green; background-color: rgb(32, 32, 32); width: 80%; height: fit-content; border-radius: 5px; margin: auto; margin-bottom: 0px; box-sizing: border-box; padding: 1em;">
+
+                            <code>
+                                var pessoa = {
+                                    nome: ['Bob', 'Smith']
+                                
+                                  bio:function(){
+                                
+                                      alert(this.nome[1])
+                                  }
+                            </code>
+                              
+                        </span>
+
+                        <label for="" class="label-questions">
+                            
+                            <input type="radio" name="questionI3" style="margin-top: 10px;">
+
+                            <span id="Itqcw" style="width: 70%; border-radius: 10px;margin-top: 10px">Smith</span>
+                        </label>
+
+                        
+                        <label for="" class="label-questions">
+                            
+                            
+                            <input type="radio" name="questionI3" style="margin-top: 10px;">
+                            <span id="Itqct" style="width: 70%; border-radius: 10px;margin-top: 10px;">Bob</span>
+                        </label>
+
+
+                        <span id="button-for-display7">
+        
+                                <button class="buttons" onclick="InterTreeQuestion()">Confirmar</button>
+                        </span>
+
+
+                    </div>
+
+
+                    <div class="questions-mid">
+
+                        <h3 class="real-question">O que é uma classe?</h3>
+
+                        <label for="" class="label-questions">
+                            
+                            <input type="radio" name="questionI4">
+
+                            <span id="Ifoqcw" style="width: 70%; border-radius: 10px;"> é um Objeto</span>
+                            
+                        </label>
+
+                        
+                        <label for="" class="label-questions">
+                            
+                            
+                            <input type="radio" name="questionI4">
+
+                            <span id="Ifoqct" style="width: 70%; border-radius: 10px;">é um tipo de função</span>
+                            
+                        </label>
+
+                        
+                        <label for="" class="label-questions">
+                            
+                            
+                            <input type="radio" name="questionI4">
+                            
+
+                            <span id="Ifoqcw1" style="width: 70%; border-radius: 10px;">É uma função factory</span>
+                        </label>
+                        
+
+                        
+
+                        <span id="button-for-display8">
+
+                            <button class="buttons" onclick="InterFourQuestion()">Confirmar</button>
+                        
+                        </span>
+
+
+                    </div>
+                </div>
+
+                
+
+
+
+            </main>
+
+
+            <section class="pontuacao-container-inter">
+
+                <h1>Pontuação</h1>
+
+                <div class="iniciante-pontuation-inter">
+
+                    <h2>Intermediário Level</h2>
+                    <span class="pontuation-text-inter">
+
+                        <span id="valor-pontuação-inter">0</span>/4
+
+
+                    </span>
+
+                </div>
+
+
+
+
+            </section>
+
+            
+
+        <!--Section do AVANÇADO-->
+
+        <section class="third-main-section">
+
+            <main class="third-main-content">
+
+                <h2 class="third-content-title iniciante-title">Perguntas nível Avançado</h2>
+                
+                <div class="advanced-questions">
+
+
+                    <div id="questions-ad1">
+
+                        <h3 class="real-question">Pegue só as notas baixas dessa array usando uma função call-back com filter
+
+                            
+                            
+                            
+                        </h3>
+                        <h4 style="text-align: center; margin-top: -5px; color: green; letter-spacing: 2px;">const notas = [3.4,5.6,2.6,8.9,10.2]</h4>
+
+                        <label for="" class="label-questions">
+
+                            <textarea name="text" id="ad-textarea" cols="30" rows="10" placeholder="EX: const NotasBaixas=...{return < 7}OBS:Use a const notasbaixas">
+                        </textarea>
+                        <span id="resposta-display"></span>
+
+                        </label>
+
+                        <span id="button-for-display9">
+                            <button class="buttons" onclick="AdvancedFirstQuestion()">Confirmar</button>
+                        </span>
+
+
+                    </div>
+                </div>
+
+                
+
+
+
+            </main>
+
+
+            <section class="pontuacao-container-ad">
+
+                <h1>Pontuação</h1>
+
+                <div class="iniciante-pontuation-ad">
+
+                    <h2>Avançado Level</h2>
+                    <span class="pontuation-text-ad">
+
+                        <span id="valor-pontuação-ad">0</span>/1
+
+
+                    </span>
+
+                </div>
+
+
+
+
+            </section>
+
+
+        
+            
+            
+            
+            <div class="footer-container">
+                <footer>
+                    <h1>Desenvolvido por</h1>
+                    <p>andré simao</p>
+                </footer>
+            </div>
+            
+        </section>
+    </div>
+
+
+
+</body>
+</html>
